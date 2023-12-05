@@ -13,7 +13,7 @@ class SQLiteDB{
   factory SQLiteDB(){
     return _instance;
   }
-
+ 
   Future<Database> get database async{
     if(_db != null){
       return _db!;
